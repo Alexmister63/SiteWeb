@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     	<meta charset="UTF-8">
+     	<title>Alexandre-Contact</title>
+		<link type="text/css" rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+<header>
+	<h1 id="titre1">Spaceweb</h1>
+	<img src="../images/espace.jpg">
+	<nav class="menu">
+		<ul id="menu-deroulant"> 
+			<li> <a class="lien" href="../HTML/acceuil.html">Acceuil</a> </li>
+			<li> <a class="lien" href="../HTML/en-savoir-plus.html">En savoir plus</a> </li>
+			<li> <a class="lien" href="../HTML/famille.html">Ma famille</a> </li>
+			<li> <a class="lien" href="../HTML/centres-d-interets.html">Centres d'intérêts</a> </li>
+			<li> <a class="lien" href="../HTML/contact.html">Contact</a></li>
+			<li class="menude"> <a class="media" href="rien">Média</a> 
+					<ul>
+							<li><a class="lien" href="../HTML/pagephoto.html">Photos</a></li>
+							<li><a class="lien" href="../HTML/pagevideo.html">Vidéo</a></li>
+					</ul>
+				</li>
+	    	</ul>
+	</nav>
+</header>
+<div>
+	<h1 id="titre1">Contact</h1>
+</div>
+<form class="form" action="contact.php" method="post">	
+<p>
+		<label for="nom">Nom</label>
+		<input type="text" name="nom" id="nom" placeholder="ex : Golfier" required/>
+</p>
+<p>
+	<label for="prénom">Prénom</label>
+	<input type="text" name="prénom" id="prenom" placeholder="ex : Alexandre" required />
+</p>
+<p>
+	<label for="tel">Téléphone</label>
+	<input type="text" name="tel" id="tel" placeholder="ex : 06 XX XX XX XX"/>
+</p>
+<p>
+	<label for="email">E-mail</label>
+	<input type="text" name="email" id="email" required placeholder="ex : tonmail@orange.fr"/>
+</p>
+<p>
+	<label for="Signaler" id="listederoulante">Signaler</label>
+	<select name="signaler" id="listederoulante">
+		<option value="Bug">un bug</option>
+		<option value="amelioration">une proposition d'amélioration</option>
+		<option value="autre">autre chose</option>
+	</select>
+</p>
+<p>
+	<label for="btn-radio1">première visite</label>
+	<input type="radio" name="btn-radio1" id="btnradio1" value="0">
+	<label for="btn-radio2">déjà visité</label>
+	<input type="radio" name="btn-radio1" id="btnradio2" value="1">
+</p>
+<p>
+	<label for="textarea">Message</label>
+	<textarea name="textarea" id="textarea" required rows="10" cols="30" ></textarea>
+</p>
+<p>
+	<input type="submit" value="Envoyer le formulaire">
+</p>
+</form>
+</body>
+
+
+<a href="../HTML/acceuil.html"> retour acceuil</a>
+
+
+<footer>	
+<p> concepteur du site : <strong> Alexandre Golfier </strong>, groupe 3
+</p>
+ </footer> 
+</body> 
+</html>
+
