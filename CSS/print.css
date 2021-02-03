@@ -1,0 +1,29 @@
+header#head {
+	display: none;
+}
+
+h2 {
+	display: none;
+}
+
+p {
+	display: none;
+}
+
+a {
+	display: none;
+}
+
+footer {
+	display:none;
+}
+
+table {border-collapse: collapse;
+}
+
+	
+tr, td {
+	border: solid 1px;
+	border-collapse: collapse
+}
+
